@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "strict": true,
+        "target": "ES6",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "types": [
+            "jasmine",
+            "jasmine_dom_matchers",
+            "node"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}
